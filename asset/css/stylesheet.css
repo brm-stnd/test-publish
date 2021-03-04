@@ -1,0 +1,36 @@
+/*Table Employee CSS*/
+.container{
+	width: 100%;
+	margin:0 auto;
+}
+.table-wrapper{
+	padding: 50px 50px;
+	text-align:left;
+}
+.table-wrapper table{
+	margin: 0 auto;
+	width: 50%;
+	border-collapse: collapse;
+}
+.table-wrapper th{
+	font-family: "Lucida Console";
+	border-top: 5px solid #abbbfe;
+	padding:20px 60px 20px 8px;
+	background-color: #b9c8ff;
+	color:#0a328b;
+	font-weight: normal;
+	font-size: 19px;
+}
+.table-wrapper td{
+	font-family: 'Merriweather', serif;
+	border-top: 2px solid white;
+	padding:20px 60px 20px 8px;
+	background-color: #e8edff;
+	color: #7a7da0;
+}
+
+@media screen and (max-width: 375px) {
+    .table-wrapper th{
+		background-color: #101011;
+	}
+}
